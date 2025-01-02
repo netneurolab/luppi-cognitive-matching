@@ -11,7 +11,7 @@ At every point in time during the scan, we can ask whether there is a good match
 
 ## Repository Structure
 ### Main function
-The main file is [fcn_cognitive_matching.m](fcn_cognitive_matching.m)
+The main file is [fcn_cognitive_matching.m](fcn_cognitive_matching.m).
 No additional installation should be required.
 To run, ensure that the [data](data/) folder is also present.
 The user needs to provide their own my_BOLD data input (a matrix of FMRI timeseries with N regions by T timepoints). N must match the requested atlas, so 200 for Schaefer and 68 for DK atlas.
